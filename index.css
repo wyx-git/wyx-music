@@ -6,8 +6,10 @@ body{
 	margin: 0;
 }
 .firstbox{
-	width: 100%;
+	margin:0 auto;
+	width: 1024px;
 	position: absolute;
+	overflow: hidden;
 	border-bottom:solid 1px #fff ;
 }
 .cricl1{
@@ -32,9 +34,11 @@ body{
 	color: #fff;
 }
 .secondbox{
-	width: 100%;
+	width: 1024px;
 	height: 618px;
 	background:#192314;
+	margin:0 auto;
+	overflow: hidden;
 }
 .secondright{
 	width: 640px;
@@ -84,17 +88,19 @@ body{
 	color: #fff;
 }
 .thridbox{
-	width: 100%;
+	width: 1024px;
 	height: 720px;
+	margin: 0 auto;
 	background-image:url(img-bg-1350.jpg);
+	position: relative;
 }
 .picbox{
+	position: absolute;
+	top:-100px;
+	left: 177px;
 	width: 680px;
 	height: 304px;
 	padding: 0 35px;
-	position: absolute;
-	top: 520px;
-	left:172px;
 }
 .jpg1{
 	float: left;
