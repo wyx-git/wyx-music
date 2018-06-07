@@ -5,29 +5,20 @@
 body{
 	margin: 0;
 }
-.firstbox{
-	margin:0 auto;
-	width: 1024px;
-	position: absolute;
-	overflow: hidden;
-	border-bottom:solid 1px #fff ;
-}
+
 .cricl1{
-	float: left;
-	margin: 5px;
+	margin: 5px auto;
 	font-size: 20px;
 	font-family: sans-serif;
 	color:#fff;
 }
 .cricl2{
-	float: left;
 	margin: 1px 330px;
 	font-size: 30px;
 	font-family: sans-serif;
 	color: #fff;
 }
 .cricl3{
-	float: right;
 	margin: 5px;
 	font-size: 20px;
 	font-family: sans-serif;
@@ -38,7 +29,14 @@ body{
 	height: 618px;
 	background:#192314;
 	margin:0 auto;
+}
+.firstbox{
+	width: 1024px;
+	position: absolute;
 	overflow: hidden;
+	display: flex;
+	justify-content: space-between;
+	border-bottom:solid 1px #fff ;
 }
 .secondright{
 	width: 640px;
@@ -89,7 +87,7 @@ body{
 }
 .thridbox{
 	width: 1024px;
-	height: 720px;
+	height: 520px;
 	margin: 0 auto;
 	background-image:url(img-bg-1350.jpg);
 	position: relative;
@@ -199,4 +197,175 @@ body{
 {
   opacity:1.0;
   filter:alpha(opacity=100);
+}
+.fourthbox{
+	margin: 0 auto;
+	width: 1024px;
+	height: 268px;
+}
+.fourtext-1{
+	margin-top:60px;
+	text-align: center;
+	font-size: 12px;
+	font-style: bold;
+	font-family: heiti;
+}
+.fourtext-2{
+	margin-top:20px;
+	margin-bottom: 50px; 
+	text-align: center;
+	font-size: 50px;
+	font-style: bold;
+}
+.fivepicbox{
+	margin:0 auto;
+	width: 705px;
+	padding:0 156px;
+	height: 315px;
+}
+.fourpic1 {
+	float: left;
+    width: 235px;
+    height: 156px;
+    position: relative;
+    overflow: hidden;
+}
+.fourtext1{
+	position: absolute;
+	top: 10px;
+	text-align: center;
+	font-size: 16px;
+	margin: 10px;
+	color: #fff;
+}
+.fourpic2 {
+	float: left;
+    width: 235px;
+    height: 156px;
+    position: relative;
+    overflow: hidden;
+}
+.fourtext2{
+	position: absolute;
+	top: 10px;
+	text-align: center;
+	font-size: 16px;
+	margin: 10px;
+	color: #fff;
+}
+.fourpic3 {
+	float: left;
+    width: 235px;
+    height: 156px;
+    position: relative;
+    overflow: hidden;
+}
+.fourtext3{
+	position: absolute;
+	top: 10px;
+	text-align: center;
+	font-size: 16px;
+	margin: 10px;
+	color: #fff;
+}
+.fourpic4{
+	float: left;
+    width: 235px;
+    height: 156px;
+    position: relative;
+    overflow: hidden;
+}
+.fourtext4{
+	position: absolute;
+	top: 10px;
+	text-align: center;
+	font-size: 16px;
+	margin: 10px;
+	color: #fff;
+}
+.fourpic5 {
+	float: left;
+    width: 235px;
+    height: 156px;
+    position: relative;
+    overflow: hidden;
+}
+.fourtext5{
+	position: absolute;
+	top: 10px;
+	text-align: center;
+	font-size: 16px;
+	margin: 10px;
+	color: #fff;
+}
+.fourpic6 {
+	float: left;
+    width: 235px;
+    height: 156px;
+    position: relative;
+    overflow: hidden;
+}
+.fourtext6{
+	position: absolute;
+	top: 10px;
+	text-align: center;
+	font-size: 16px;
+	margin: 10px;
+	color: #fff;
+}
+.fouricon{
+	position: absolute;
+	padding: 10px 25px;
+	background: #fff;
+	font-size: 18px;
+	font-style: bold;
+	font-family: heiti;
+	left: 30px;
+	bottom: 10px;
+}
+.fouricon
+{
+  opacity:0;
+  filter:alpha(opacity=40);
+}
+.fouricon:hover
+{
+  opacity:1.0;
+  filter:alpha(opacity=100);
+}
+.sevenbox{
+	margin: 0 auto;
+	width: 705px;
+	display: flex;
+	flex-wrap: wrap;
+}
+.sevenstory{
+	width: 176px;
+	height: 168px;
+}
+.desc {
+	width: 176px;
+    padding: 15px;
+    text-align: center;
+}
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 100%;
+}
+.sevenstory:nth-child(1){
+	background: url(design-as-a-group-effort-01.jpg);
+	background-size: 176px 168px;
+}
+.sevenstory:nth-child(2){
+	background: url(the-krane.jpg);
+	background-size: 176px 168px;	
+}
+.sevenstory:nth-child(3){
+	background: url(harmonies-story.jpg);
+	background-size: 353px 168px;	
+}
+.sevenstory:nth-child(4){
+	background: url(harmonies-story.jpg);
+	background-size: 353px 168px;	
 }
