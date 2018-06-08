@@ -1,371 +1,415 @@
-*{
-	margin: 0;
-	padding: 0;
-}
-body{
-	margin: 0;
+* {
+    margin: 0;
+    padding: 0;
 }
 
-.cricl1{
-	margin: 5px auto;
-	font-size: 20px;
-	font-family: sans-serif;
-	color:#fff;
+body {
+    margin: 0;
 }
-.cricl2{
-	margin: 1px 330px;
-	font-size: 30px;
-	font-family: sans-serif;
-	color: #fff;
+
+.nav-left {
+    margin: 5px auto;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #fff;
 }
-.cricl3{
-	margin: 5px;
-	font-size: 20px;
-	font-family: sans-serif;
-	color: #fff;
+
+.nav-center {
+    margin: 1px 330px;
+    font-size: 30px;
+    font-family: sans-serif;
+    color: #fff;
 }
-.secondbox{
-	width: 1024px;
-	height: 618px;
-	background:#192314;
-	margin:0 auto;
+
+.nav-right {
+    margin: 5px;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #fff;
 }
-.firstbox{
-	width: 1024px;
-	position: absolute;
-	overflow: hidden;
-	display: flex;
-	justify-content: space-between;
-	border-bottom:solid 1px #fff ;
+
+.content {
+    width: 1024px;
+    height: 618px;
+    background: #192314;
+    margin: 0 auto;
 }
-.secondright{
-	width: 640px;
-	height: 400px;
-	background-image:url(green-beosound-shape-desktop.jpg);
-	background-size: 640px auto;
-	float: right;
+
+.nav {
+    width: 1024px;
+    position: absolute;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid 1px #fff;
 }
-.secondleft{
-	width: 512px;
-	height: 208px;
-	position: absolute;
-	padding-top: 120px;
-	padding-left: 100px;
-	overflow: hidden;
+
+.column-right {
+    width: 640px;
+    height: 400px;
+    background-image: url(green-beosound-shape-desktop.jpg);
+    background-size: 640px auto;
+    float: right;
 }
-.text1{
-	margin: 2px;
-	font-size: 16px;
-	font-style: normal;
-	font-family: sans-serif;
-	color: #8A6D3C;
+
+.column-left {
+    width: 512px;
+    height: 208px;
+    position: absolute;
+    padding-top: 120px;
+    padding-left: 100px;
+    overflow: hidden;
 }
-.text2{
-	margin: 2px;
-	font-size: 50px;
-	font-style: normal;
-	font-family: inherit;
-	color: #8A6D3C;
+
+.text1 {
+    margin: 2px;
+    font-size: 16px;
+    font-style: normal;
+    font-family: sans-serif;
+    color: #8A6D3C;
 }
-.text3{
-	margin: 2px;
-	font-size: 16px;
-	font-style: normal;
-	font-family: ;
-	color: #8A6D3C;
-	padding-top: 10px;
-	padding-bottom: 10px;
+
+.text2 {
+    margin: 2px;
+    font-size: 50px;
+    font-style: normal;
+    font-family: inherit;
+    color: #8A6D3C;
 }
-.text4{
-	margin: 2px;
-	font-size: 16px;
-	font-style: normal;
-	font-family:  "Gotham SSm A","Gotham SSm B";
-	padding: 12px 35px;
-	background:#8a6d3b;
-	color: #fff;
+
+.text3 {
+    margin: 2px;
+    font-size: 16px;
+    font-style: normal;
+    color: #8A6D3C;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
-.thridbox{
-	width: 1024px;
-	height: 520px;
-	margin: 0 auto;
-	background-image:url(img-bg-1350.jpg);
-	position: relative;
+
+.text4 {
+    margin: 2px;
+    font-size: 16px;
+    font-style: normal;
+    padding: 12px 35px;
+    background: #8a6d3b;
+    color: #fff;
 }
-.picbox{
-	position: absolute;
-	top:-100px;
-	left: 177px;
-	width: 680px;
-	height: 304px;
-	padding: 0 35px;
+
+.main {
+    width: 1024px;
+    height: 520px;
+    margin: 0 auto;
+    background-image: url(img-bg-1350.jpg);
+    position: relative;
 }
-.jpg1{
-	float: left;
-	width: 203px;
-	height: 304px;
-	background-image: url(beovision-eclipse-frontpage-brass-smoked-oak-2.jpg);
-	background-size: 100%;
-	position: relative;
+
+.banner {
+    position: absolute;
+    top: -100px;
+    left: 177px;
+    width: 680px;
+    height: 304px;
+    padding: 0 35px;
 }
-.jpgtext3-1{
-	position: absolute;
-	bottom: 20px;
-	left:15px;
-	padding:5px 40px 5px 20px;
-	background-color: #fff;
+
+.jpg1 {
+    float: left;
+    width: 203px;
+    height: 304px;
+    background-image: url(beovision-eclipse-frontpage-brass-smoked-oak-2.jpg);
+    background-size: 100%;
+    position: relative;
 }
-.jpg2{
-	float: left;
-	width: 203px;
-	height: 304px;
-	background-image: url(beoplay-p6-8.jpg);
-	background-size: 100%;
-	position: relative;
+
+.banner-text3-1 {
+    position: absolute;
+    bottom: 20px;
+    left: 15px;
+    padding: 5px 40px 5px 20px;
+    background-color: #fff;
 }
-.jpgtext3-2{
-	position: absolute;
-	bottom: 20px;
-	left:15px;
-	padding:5px 40px 5px 20px;
-	background-color: #fff;
+
+.jpg2 {
+    float: left;
+    width: 203px;
+    height: 304px;
+    background-image: url(beoplay-p6-8.jpg);
+    background-size: 100%;
+    position: relative;
 }
-.jpg3{
-	float: left;
-	width: 203px;
-	height: 304px;
-	background-image: url(earset-subtile1.jpg);
-	background-size: 100%;
-	position: relative;
+
+.banner-text3-2 {
+    position: absolute;
+    bottom: 20px;
+    left: 15px;
+    padding: 5px 40px 5px 20px;
+    background-color: #fff;
 }
-.jpgtext3-3{
-	position: absolute;
-	bottom: 20px;
-	left:15px;
-	padding:5px 40px 5px 20px;
-	background-color: #fff;
+
+.jpg3 {
+    float: left;
+    width: 203px;
+    height: 304px;
+    background-image: url(earset-subtile1.jpg);
+    background-size: 100%;
+    position: relative;
 }
-.jpgtext{
-	margin-left: 15px;
-	margin-top: 10px;
-	font-size: 15px;
-	font-weight: bold;
-	color: #fff;
+
+.banner-text3-3 {
+    position: absolute;
+    bottom: 20px;
+    left: 15px;
+    padding: 5px 40px 5px 20px;
+    background-color: #fff;
 }
-.jpgtext2{
-	margin-top: 120px;
-	margin-left: 15px;
-	font-size: 16px;
-	color: #fff;
+
+.banner-text {
+    margin-left: 15px;
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #fff;
 }
-.jpgtext2
-{
-  opacity:0;
-  filter:alpha(opacity=40);
+
+.banner-text2 {
+    margin-top: 120px;
+    margin-left: 15px;
+    font-size: 16px;
+    color: #fff;
 }
-.jpgtext2:hover
-{
-  opacity:1.0;
-  filter:alpha(opacity=100);
+
+.banner-text2 {
+    opacity: 0;
+    filter: alpha(opacity=40);
 }
-.jpgtext3-1
-{
-  opacity:0;
-  filter:alpha(opacity=40);
+
+.banner-text2:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100);
 }
-.jpgtext3-1:hover
-{
-  opacity:1.0;
-  filter:alpha(opacity=100);
+
+.banner-text3-1 {
+    opacity: 0;
+    filter: alpha(opacity=40);
 }
-.jpgtext3-2
-{
-  opacity:0;
-  filter:alpha(opacity=40);
+
+.banner-text3-1:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100);
 }
-.jpgtext3-2:hover
-{
-  opacity:1.0;
-  filter:alpha(opacity=100);
+
+.banner-text3-2 {
+    opacity: 0;
+    filter: alpha(opacity=40);
 }
-.jpgtext3-3
-{
-  opacity:0;
-  filter:alpha(opacity=40);
+
+.banner-text3-2:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100);
 }
-.jpgtext3-3:hover
-{
-  opacity:1.0;
-  filter:alpha(opacity=100);
+
+.banner-text3-3 {
+    opacity: 0;
+    filter: alpha(opacity=40);
 }
-.fourthbox{
-	margin: 0 auto;
-	width: 1024px;
-	height: 268px;
+
+.banner-text3-3:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100);
 }
-.fourtext-1{
-	margin-top:60px;
-	text-align: center;
-	font-size: 12px;
-	font-style: bold;
-	font-family: heiti;
+
+.product-text {
+    margin: 0 auto;
+    width: 1024px;
+    height: 268px;
 }
-.fourtext-2{
-	margin-top:20px;
-	margin-bottom: 50px; 
-	text-align: center;
-	font-size: 50px;
-	font-style: bold;
+
+.product-text-1 {
+    margin-top: 60px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: heiti;
 }
-.fivepicbox{
-	margin:0 auto;
-	width: 705px;
-	padding:0 156px;
-	height: 315px;
+
+.product-text-2 {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
 }
-.fourpic1 {
-	float: left;
+
+.product-list {
+    margin: 0 auto;
+    width: 705px;
+    padding: 0 156px;
+    height: 315px;
+}
+
+.product-pic1 {
+    float: left;
     width: 235px;
     height: 156px;
     position: relative;
     overflow: hidden;
 }
-.fourtext1{
-	position: absolute;
-	top: 10px;
-	text-align: center;
-	font-size: 16px;
-	margin: 10px;
-	color: #fff;
+
+.product-text1 {
+    position: absolute;
+    top: 10px;
+    text-align: center;
+    font-size: 16px;
+    margin: 10px;
+    color: #fff;
 }
-.fourpic2 {
-	float: left;
+
+.product-pic2 {
+    float: left;
     width: 235px;
     height: 156px;
     position: relative;
     overflow: hidden;
 }
-.fourtext2{
-	position: absolute;
-	top: 10px;
-	text-align: center;
-	font-size: 16px;
-	margin: 10px;
-	color: #fff;
+
+.product-text2 {
+    position: absolute;
+    top: 10px;
+    text-align: center;
+    font-size: 16px;
+    margin: 10px;
+    color: #fff;
 }
-.fourpic3 {
-	float: left;
+
+.product-pic3 {
+    float: left;
     width: 235px;
     height: 156px;
     position: relative;
     overflow: hidden;
 }
-.fourtext3{
-	position: absolute;
-	top: 10px;
-	text-align: center;
-	font-size: 16px;
-	margin: 10px;
-	color: #fff;
+
+.product-text3 {
+    position: absolute;
+    top: 10px;
+    text-align: center;
+    font-size: 16px;
+    margin: 10px;
+    color: #fff;
 }
-.fourpic4{
-	float: left;
+
+.product-pic4 {
+    float: left;
     width: 235px;
     height: 156px;
     position: relative;
     overflow: hidden;
 }
-.fourtext4{
-	position: absolute;
-	top: 10px;
-	text-align: center;
-	font-size: 16px;
-	margin: 10px;
-	color: #fff;
+
+.product-text4 {
+    position: absolute;
+    top: 10px;
+    text-align: center;
+    font-size: 16px;
+    margin: 10px;
+    color: #fff;
 }
-.fourpic5 {
-	float: left;
+
+.product-pic5 {
+    float: left;
     width: 235px;
     height: 156px;
     position: relative;
     overflow: hidden;
 }
-.fourtext5{
-	position: absolute;
-	top: 10px;
-	text-align: center;
-	font-size: 16px;
-	margin: 10px;
-	color: #fff;
+
+.product-text5 {
+    position: absolute;
+    top: 10px;
+    text-align: center;
+    font-size: 16px;
+    margin: 10px;
+    color: #fff;
 }
-.fourpic6 {
-	float: left;
+
+.product-pic6 {
+    float: left;
     width: 235px;
     height: 156px;
     position: relative;
     overflow: hidden;
 }
-.fourtext6{
-	position: absolute;
-	top: 10px;
-	text-align: center;
-	font-size: 16px;
-	margin: 10px;
-	color: #fff;
+
+.product-text6 {
+    position: absolute;
+    top: 10px;
+    text-align: center;
+    font-size: 16px;
+    margin: 10px;
+    color: #fff;
 }
-.fouricon{
-	position: absolute;
-	padding: 10px 25px;
-	background: #fff;
-	font-size: 18px;
-	font-style: bold;
-	font-family: heiti;
-	left: 30px;
-	bottom: 10px;
+
+.guild {
+    position: absolute;
+    padding: 10px 25px;
+    background: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: heiti;
+    left: 30px;
+    bottom: 10px;
 }
-.fouricon
-{
-  opacity:0;
-  filter:alpha(opacity=40);
+
+.guild {
+    opacity: 0;
+    filter: alpha(opacity=40);
 }
-.fouricon:hover
-{
-  opacity:1.0;
-  filter:alpha(opacity=100);
+
+.guild:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100);
 }
-.sevenbox{
-	margin: 0 auto;
-	width: 705px;
-	display: flex;
-	flex-wrap: wrap;
+
+.news-title {
+    margin: 0 auto;
+    width: 705px;
+    display: flex;
+    flex-wrap: wrap;
 }
-.sevenstory{
-	width: 176px;
-	height: 168px;
+
+.news-story {
+    width: 176px;
+    height: 168px;
 }
+
 .desc {
-	width: 176px;
+    width: 176px;
     padding: 15px;
     text-align: center;
 }
+
 .responsive {
     padding: 0 6px;
     float: left;
     width: 100%;
 }
-.sevenstory:nth-child(1){
-	background: url(design-as-a-group-effort-01.jpg);
-	background-size: 176px 168px;
+
+.news-story:nth-child(1) {
+    background: url(design-as-a-group-effort-01.jpg);
+    background-size: 176px 168px;
 }
-.sevenstory:nth-child(2){
-	background: url(the-krane.jpg);
-	background-size: 176px 168px;	
+
+.news-story:nth-child(2) {
+    background: url(the-krane.jpg);
+    background-size: 176px 168px;
 }
-.sevenstory:nth-child(3){
-	background: url(harmonies-story.jpg);
-	background-size: 353px 168px;	
+
+.news-story:nth-child(3) {
+    background: url(harmonies-story.jpg);
+    background-size: 353px 168px;
 }
-.sevenstory:nth-child(4){
-	background: url(harmonies-story.jpg);
-	background-size: 353px 168px;	
+
+.news-story:nth-child(4) {
+    background: url(harmonies-story.jpg);
+    background-size: 353px 168px;
 }
