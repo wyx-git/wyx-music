@@ -229,7 +229,6 @@ body {
     text-align: center;
     font-size: 12px;
     font-weight: bold;
-    font-family: heiti;
 }
 
 .product-text-2 {
@@ -355,7 +354,6 @@ body {
     background: #fff;
     font-size: 18px;
     font-weight: bold;
-    font-family: heiti;
     left: 30px;
     bottom: 10px;
 }
@@ -371,13 +369,32 @@ body {
 }
 
 .news-title {
+    width: 705px;
+    height: 325px;
+    margin: 0 auto;
+}
+
+.news-text-1 {
+    margin: 30px 0 18px;
+    line-height: 24px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.news-text-2 {
+    line-height: 50px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.story-list {
     margin: 0 auto;
     width: 705px;
     display: flex;
     flex-wrap: wrap;
 }
 
-.news-story {
+.story {
     width: 176px;
     height: 168px;
 }
@@ -386,6 +403,7 @@ body {
     width: 176px;
     padding: 15px;
     text-align: center;
+    color: rgba(0, 0, 0, 0.6);
 }
 
 .responsive {
@@ -394,22 +412,82 @@ body {
     width: 100%;
 }
 
-.news-story:nth-child(1) {
+.story:nth-child(1) {
     background: url(design-as-a-group-effort-01.jpg);
     background-size: 176px 168px;
 }
 
-.news-story:nth-child(2) {
+.story:nth-child(2) {
     background: url(the-krane.jpg);
     background-size: 176px 168px;
 }
 
-.news-story:nth-child(3) {
+.story:nth-child(3) {
     background: url(harmonies-story.jpg);
     background-size: 353px 168px;
 }
 
-.news-story:nth-child(4) {
+.story:nth-child(4) {
     background: url(harmonies-story.jpg);
     background-size: 353px 168px;
+}
+.footer{
+    border-top: solid 1px #f2f2f2;
+    padding: 0 14px;
+    height: 536px;
+    display: flex;
+}
+.news-service{
+    width: 47%;
+    height: 100%;
+}
+.news-service:nth-child(1){
+    border-right: solid 1px #f2f2f2;
+}
+.news-service .icon{
+    margin: 80px auto 30px auto;
+    width: 56px;
+    height: 56px;
+}
+.news-service h5{
+    margin: 20px 0 20px 0;
+    line-height: 23px;
+    font-size: 17px;
+    font-weight: 500;
+    color: #000;
+    text-align: center;
+}
+.news-service h6{
+    line-height: 20px;
+    font-size: 13px;
+    color: rgba(0,0,0,0.6);
+    text-align: center;
+}
+.news-service input{
+    border: solid 1px #ccc;
+    outline: none;
+    margin: 12px auto 40px auto;
+    padding: 1px 6px;
+    width: 372px;
+    height: 56px;
+    font-size: 12px;
+    line-height: 17px;
+}
+.news-service:nth-child(1) .icon{
+    background: url(news-icon.jpg);
+}
+
+.news-service:nth-child(2) .icon{
+    background: url(search-icon.jpg);
+}
+.button{
+    margin: 20px auto;
+    padding: 12px 35px;
+    width: 40%;
+    background: rgba(0,0,0,0.6);
+    color: #000;
+    font-size: 12px;
+    line-height: 14px;
+    font-style: normal;
+    text-align: center;
 }
