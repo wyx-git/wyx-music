@@ -433,10 +433,10 @@ body {
 }
 
 .footer {
-    border-top: solid 1px #f2f2f2;
+    display: flex;
     padding: 0 14px;
     height: 536px;
-    display: flex;
+    border-top: solid 1px #f2f2f2;
 }
 
 .news-service {
@@ -506,7 +506,7 @@ body {
 }
 
 .copyright {
-    margin: 10px;
+    margin: 10px auto;
     width: 1024px;
     height: 80px;
     border-top: 1px solid rgba(0, 0, 0, 0.4);
