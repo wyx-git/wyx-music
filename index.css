@@ -532,6 +532,13 @@ body {
 .copyRight-text:nth-child(2) {
     float: right;
     margin: 10px;
+    width: 550px;
     font-size: 12px;
     font-style: normal;
+    line-height: 14px;
+}
+.copyRight-text li{
+    display: block;
+    float: right;
+    margin: 2px 5px;
 }
